@@ -1,0 +1,31 @@
+/*Abstracts*/
+
+@import "partials/abstracts/variables";
+@import "partials/abstracts/mixins";
+@import "partials/abstracts/fonts";
+
+/* Base */
+
+@import "partials/base/base";
+
+/*Components*/
+
+@import "partials/components/herocontainer";
+@import "partials/components/marquee";
+@import "partials/components/slider";
+@import "partials/components/slidedownnav";
+@import "partials/components/cmscard";
+@import "partials/components/newsletter";
+@import "partials/components/_lyricsdictionary.scss";
+
+/*Pages*/
+
+@import "partials/pages/singlepost";
+@import "partials/pages/catpage";
+
+/*Layout*/
+
+@import "partials/layout/header";
+@import "partials/layout/footer";
+@import "partials/layout/tabletmobile";
+@import "partials/layout/mainsection";
