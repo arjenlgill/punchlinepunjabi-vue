@@ -19,12 +19,12 @@ import '../../assets/scss/style.scss'
 export default {
   name: 'app',
   components: {
-    BurgerMenu,
     Header,
     MobNav,
     HHero,
     MoreMusic,
-    Footer
+    Footer,
+    BurgerMenu
   },
   }
 </script>

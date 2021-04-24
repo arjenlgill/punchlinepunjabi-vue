@@ -9,7 +9,7 @@
         <a href="#"
           ><img
             id="insta-svg"
-            src="dist/svg icons/instagram white logo.svg"
+            src='../assets/svg/instagram.svg'
             alt="punchline punjabi instagram icon"
         /></a>
         <!--<a href="#"
@@ -19,7 +19,7 @@
             /></a>-->
         <a href="#"
           ><img
-            src="dist/svg icons/youtube white logo.svg"
+            src='../assets/svg/youtube.svg'
             alt="punchline punjabi youtube icon"
         /></a>
         <!--<a href="#"
