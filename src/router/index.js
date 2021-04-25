@@ -36,7 +36,7 @@ const routes = [
     component: About
   },
   {
-    path: '/single',
+    path: '/singleone',
     name: 'Single',
     component: Single
   }

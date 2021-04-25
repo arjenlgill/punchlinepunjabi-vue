@@ -16,6 +16,9 @@
 
 .cms-item-container {
   transition: all 0.2s ease;
+   a{
+     text-decoration: none;
+   }
 }
 
 .cms-item-container:hover {
@@ -56,6 +59,7 @@ $imgUrls: (
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: -10px;
 }
 
 .cms-text-block-header {

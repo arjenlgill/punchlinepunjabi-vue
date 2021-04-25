@@ -23,6 +23,7 @@
   background-color: $black;
   display: flex;
   justify-content: center;
+  color: #fff;
 
   p {
     @include fonts(Montserrat, $light, 1.8rem);

@@ -8,97 +8,30 @@
       <div class="grid-wrap">
         <div class="cms-wrapper">
           <!--cms item-->
+          <div
+            v-bind:key="article"
+            v-for="article in articles"
+            class="cms-item-container"
+          >
+            <a v-bind:href="article.url">
+              <img v-bind:src="article.img" class="cms-card-image">
 
-          <div class="cms-item-container">
-            <div class="cms-card-image image1"></div>
+              <div class="cms-text-block">
+                <h3 class="cms-text-block-header">
+                  {{ article.header }}
+                </h3>
 
-            <div class="cms-text-block">
-              <h3 class="cms-text-block-header">
-                AP Dhillon X Gurinder Gill: 'Arrogant' Punjabi and English
-                Lyrics
-              </h3>
+                <p class="cms-paragraph">
+                  {{ article.teaser }}
+                </p>
 
-              <p class="cms-paragraph">
-                Punjabi-to-English lyrics translation of AP Dhillon X Gurinder
-                Gill's 'Arrogant', with producer Gmnxr.
-              </p>
+                <div class="category-subcat-wrapper">
+                  <div class="cms-category">{{article.cmsCat}}</div>
 
-              <div class="category-subcat-wrapper">
-                <div class="cms-category">Features</div>
-
-                <div class="cms-sub-category">Lyrics</div>
+                  <div class="cms-sub-category">{{article.cmsSubCat}}</div>
+                </div>
               </div>
-            </div>
-          </div>
-
-          <!--cms item-->
-
-          <div class="cms-item-container">
-            <div class="cms-card-image image2"></div>
-
-            <div class="cms-text-block">
-              <h3 class="cms-text-block-header">
-                AP Dhillon X Gurinder Gill: 'Droptop' Lyrics English Translation
-              </h3>
-
-              <p class="cms-paragraph">
-                Punjabi-to-English lyrics translation of AP Dhillon X Gurinder
-                Gill's 'Droptop', a song for convertible-cruising..
-              </p>
-
-              <div class="category-subcat-wrapper">
-                <div class="cms-category">Features</div>
-
-                <div class="cms-sub-category">Lyrics</div>
-              </div>
-            </div>
-          </div>
-
-          <!--cms item-->
-
-          <div class="cms-item-container">
-            <div class="cms-card-image image3"></div>
-
-            <div class="cms-text-block">
-              <h3 class="cms-text-block-header">
-                Prabh Deep: 'Chitta' Punjabi and English Lyrics
-              </h3>
-
-              <p class="cms-paragraph">
-                Punjabi-to-English lyrics translation of AP Dhillon X Gurinder
-                Gill's 'Arrogant', with producer Gmnxr. This is a song about
-                staying away from the influence of cocaine.
-              </p>
-
-              <div class="category-subcat-wrapper">
-                <div class="cms-category">Features</div>
-
-                <div class="cms-sub-category">Lyrics</div>
-              </div>
-            </div>
-          </div>
-
-          <!--cms item-->
-
-          <div class="cms-item-container">
-            <div class="cms-card-image image4"></div>
-
-            <div class="cms-text-block">
-              <h3 class="cms-text-block-header">
-                Sidhu Moose Wala: '47', the Choice of God or Gun
-              </h3>
-
-              <p class="cms-paragraph">
-                Review of Sidhu Moose Wala's discography, comparing his lyrics
-                to gangster rapper Tupac.
-              </p>
-
-              <div class="category-subcat-wrapper">
-                <div class="cms-category">Features</div>
-
-                <div class="cms-sub-category">Lyrics</div>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -123,16 +56,180 @@
   </section>
 </template>
 
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+</style>
+
 <script>
 export default {
-  name: "More Music",
-  props: {
-    msg: String,
+  //props: ["limit"],
+  data: function () {
+    return {
+      articles: [
+        {
+          url: "singleone.html",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+        {
+          url: "#",
+          header:
+            "Steel Banglez X Sidhu Moose Wala: '47' Track Review",
+          img: require("../assets/img/sidhusteelbanglez.jpg"),
+          teaser: `‘47’ chronicles the sin-ridden lives of self-professed daaku [gangster] Sidhu Moose Wala, and his collaborators: MIST and Stefflon Don.`,
+          cmsCat: 'Features',
+          cmsSubCat: 'Lyrics'
+        },
+      ],
+    };
   },
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>

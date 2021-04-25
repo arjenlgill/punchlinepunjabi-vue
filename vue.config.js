@@ -38,7 +38,15 @@ module.exports = {
         filename: 'dictionary.html',
         title: 'Dictionary',
         chunks: ['chunk-vendors', 'chunk-common', 'dictionary']
-    }
+    },
+    //Singles
+    'singleone': {
+      entry: './src/subpages/singleone/main.js',
+      template: 'public/index.html',
+      filename: 'singleone.html',
+      title: 'Steel Banglez X Sidhu Moose Wala: \'47\' Track Review',
+      chunks: ['chunk-vendors', 'chunk-common', 'singleone']
+  },
   },
   lintOnSave: false,
   configureWebpack: {

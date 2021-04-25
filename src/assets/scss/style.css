@@ -590,6 +590,7 @@ body {
 
 .post-content-container, .cat-content-container {
   background-color: #000;
+  color: #fff;
   display: flex;
   justify-content: center;
 }
