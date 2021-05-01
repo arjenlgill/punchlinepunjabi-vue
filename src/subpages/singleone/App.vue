@@ -8,7 +8,7 @@
     :lyricsOG="this.post.lyricsOG"
     :lyricsTrans="this.post.lyricsTrans"
     :postContent="this.post.postContent"
-    v-bind:lyrics="lyrics"
+    :lyrics="lyrics"
   />
   <MoreMusic />
   <Footer />
@@ -34,11 +34,11 @@ export default {
     return {
       post: {
         img: require("../../assets/img/amantejhundal.jpg"),
-        postH1: "AMANTEJ HUNDAL X SIGNATURE BY SB: 'test'",
-        postH2: "TestChros",
+        postH1: "AMANTEJ HUNDAL X SIGNATURE BY SB: 'Chorus'",
+        postH2: "Chorus",
         postIntro: "",
-        lyricsOG: ["jatt ne tah zindagi che lehne aa nazaare", "testOG"],
-        lyricsTrans: ["test2", "test3"],
+        lyricsOG: ["jatt ne tah zindagi che lehne aa nazaare", "testOG", "tedajfj"],
+        lyricsTrans: ["test2", "test3", "erjif"],
         postContent: "",
       }
     };
@@ -48,7 +48,8 @@ export default {
       let mo = this.post.lyricsOG.map((x, y) => {
         return [x, this.post.lyricsTrans[y]];
       });
-      return mo[0].concat(mo[1]);
+      //return mo.concat.apply([], mo);
+      return mo.flat(1);
     },
   },
 };
