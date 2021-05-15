@@ -34,7 +34,9 @@
         </div>
 
         <p class="post-content">{{ postContent }}</p>
+
       </div>
+
     </div>
   </div>
   </div>

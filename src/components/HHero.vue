@@ -32,7 +32,7 @@
           <div class="slide slide2">
             <div class="slide-content">
               <h2 class="post-header-slider">
-                AP Dhillon X Gurinder Gill: 'Droptop' Lyrics English Translation
+                Amantej Hundal: 'Enemies'
               </h2>
             </div>
           </div>
@@ -61,25 +61,6 @@ export default {
   methods: {
     init: function () {
       console.log("this");
-    },
-    reset: function () {
-      for (let i = 0; i < sliderImages.length; i++) {
-        sliderImages[i].style.display = "none";
-      }
-    },
-    startSlide: function () {
-      reset();
-      sliderImages[0].style.display = "block";
-    },
-    slideLeft: function () {
-      reset();
-      sliderImages[current - 1].style.display = "block";
-      current--;
-    },
-    slideRight: function () {
-      reset();
-      sliderImages[current + 1].style.display = "block";
-      current++;
     },
   },
   mounted() {
