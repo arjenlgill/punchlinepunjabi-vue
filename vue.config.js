@@ -2,6 +2,7 @@ const ImageminPlugin = require('imagemin-webpack-plugin').default
 const imageminMozjpeg = require('imagemin-mozjpeg');
 const imageminWebp = require('imagemin-webp');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const RobotstxtPlugin = require("robotstxt-webpack-plugin");
 
 module.exports = {
   pages: {  
@@ -59,6 +60,7 @@ module.exports = {
     },*/
     devtool: 'source-map',
     plugins: [
+      new RobotstxtPlugin(),
       new BundleAnalyzerPlugin(),
       new ImageminPlugin({
         pngquant: {

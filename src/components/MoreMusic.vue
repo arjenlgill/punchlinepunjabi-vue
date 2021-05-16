@@ -14,7 +14,7 @@
             class="cms-item-container"
           >
             <a v-bind:href="article.url">
-              <img v-bind:src="article.img" class="cms-card-image">
+              <img v-bind:src="article.img" class="cms-card-image" alt="punchline punjabi thumbnail image">
 
               <div class="cms-text-block">
                 <h3 class="cms-text-block-header">
