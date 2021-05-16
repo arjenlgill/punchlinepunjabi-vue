@@ -6,6 +6,7 @@
     width: auto;
     position: relative;
     text-align: center;
+    overflow: hidden;
   }
   
   #prev,
@@ -38,7 +39,7 @@
     height: 100%;
   }
   
-  .slide1 {
+  /*.slide1 {
     background-image: url("https://arjengill.github.io/punjabimusicwebsite/dist/images/47.jpg");
   }
   
@@ -48,11 +49,18 @@
   
   .slide3 {
     background-image: url("https://arjengill.github.io/punjabimusicwebsite/dist/images/prabhdeepchitta.jpg");
-  }
+  } */
   
   .slide-content {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .slider-img {
+    object-fit: cover;
+    max-width: 100vw;
+    width: 100%;
   }
   
   .post-header-slider {
