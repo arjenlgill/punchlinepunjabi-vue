@@ -1,6 +1,6 @@
 /*autoprefixer: off*/
 /*Base*/
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -197,18 +197,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
-}
-
-.slide1 {
-  background-image: url("https://arjengill.github.io/punjabimusicwebsite/dist/images/47.jpg");
-}
-
-.slide2 {
-  background-image: url("https://uploads-ssl.webflow.com/5ea0850543b1d879350bf91d/5f599959e156c0f5cc0cb60d_Amantej%20Hundal%20enemies.jpg");
-}
-
-.slide3 {
-  background-image: url("https://arjengill.github.io/punjabimusicwebsite/dist/images/prabhdeepchitta.jpg");
 }
 
 .slide-content {
