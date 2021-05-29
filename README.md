@@ -1,4 +1,4 @@
-# punjabimusicwebsitevue
+# punchlinepunjabivue
 
 Understanding how to circumvent the inherent technical SEO issues caused by JavaScript DOM-injection when building sites with frameworks such as Vue and React.
 
