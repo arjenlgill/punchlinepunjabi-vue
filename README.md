@@ -6,7 +6,7 @@ While such frameworks have obvious advantages when it comes to templating, bindi
 
 What I learned:
 
-When first picking up Vue, I immediately saw how it wasn't very SEO-friendly out-of-the-box. Due to the nature of single page apps, there was the immediate issue of the Vuex router not producing unique URLs, but rather fragments that gave the illusion of separate pages. My first task was to sort this out by creating unique entry points for each physical page, which was not too obtrusive but did cause issues with Vue DevTools detecting Vue on the page.
+When first picking up Vue, I immediately saw how it wasn't very SEO-friendly out-of-the-box. Due to the nature of single-page apps, there was the immediate issue of the Vuex router not producing unique URLs, but rather fragments that gave the illusion of separate pages. My first task was to sort this out by creating unique entry points for each physical page, which was not too obtrusive but did cause issues with Vue DevTools detecting Vue on the page.
 
 Once this was done, I focused on re-building the music website with Vue templating, which was fantastic for saving code and making it much less tedious to format lyrics. 
 
