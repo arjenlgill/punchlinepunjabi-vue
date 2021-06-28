@@ -12,4 +12,4 @@ Once this was done, I focused on re-building the music website with Vue templati
 
 Upon completing the re-structuring of the website, I encountered a few technical SEO issues -- including page speed. Initially the score was drastically lower (37) than the score I had achieved (97) with GULP and manual optimisations that were carried over into this project. After looking deeper into this, I found one another drawback of SPAs: the heavy reliance on dependencies to render page content. My chunk-vendors.js file was 2MB. I fixed this by splitting chunks per entry point, lazy-loading JS modules, implementing a cache API to cache the app shell, and gzipping the file; the Lighthouse score was revived back to 90+. 
 
-There is one, ultimate problem that remains, which is the JS-injection of page content that is problematic with client-side rendering. For this, I will look into dynamic rendering. 
+There is one, ultimate problem that remains, which is the JS-injection of page content that is problematic with client-side rendering. In hindsight, selecting Nuxt over Vue would have been a wiser choice.
