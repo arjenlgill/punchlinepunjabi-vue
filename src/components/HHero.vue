@@ -21,7 +21,7 @@
         <div class="slider">
           <div class="slide slide1">
             <div class="slide-content">
-              <img class="slider-img" src="https://arjengill.github.io/punjabimusicwebsite/dist/images/47.jpg" alt="">
+              <img class="slider-img" src="~@/assets/img/sidhu47.jpg" alt="">
               <h2 class="post-header-slider">
                 Sidhu Moose Wala: The Choice of God or Gun
               </h2>
@@ -32,7 +32,7 @@
         <div class="slider">
           <div class="slide slide2">
             <div class="slide-content">
-              <img class="slider-img" src="https://uploads-ssl.webflow.com/5ea0850543b1d879350bf91d/5f599959e156c0f5cc0cb60d_Amantej%20Hundal%20enemies.jpg" alt="">
+              <img class="slider-img" src="~@/assets/img/hundalenemies.jpg" alt="">
               <h2 class="post-header-slider">
                 Amantej Hundal: 'Enemies'
               </h2>
@@ -43,7 +43,7 @@
         <div class="slider">
           <div class="slide slide3">
             <div class="slide-content">
-              <img class="slider-img" src="https://arjengill.github.io/punjabimusicwebsite/dist/images/prabhdeepchitta.jpg" alt="">
+              <img class="slider-img" src="~@/assets/img/prabhdeepchitta.jpg" alt="">
               <h2 class="post-header-slider">
                 Prabh Deep: 'Chitta' Punjabi and English Lyrics
               </h2>
