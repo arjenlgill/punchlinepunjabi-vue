@@ -27,6 +27,7 @@
 
   p {
     @include fonts(Montserrat, $light, 1.8rem);
+    margin-bottom: 15px;
   }
 }
 
