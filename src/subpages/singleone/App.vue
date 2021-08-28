@@ -167,23 +167,6 @@
             these nouns are placed within lines where Sidhu is talking about his
             enemies or his evil deeds.  
           </p>
-          <p>
-            This dichotomy between God and gun is also central to the stylistic
-            choices behind the music video, which mirrors the content of the
-            song by drawing out physical shapes of objects that represent
-            violence and materialism, colouring them with a menacing red against
-            an otherwise abyss of black.    
-          </p>
-
-          <p>
-            I picked out two frames in particular from the video: one of Sidhu,
-            whose blackened outline clenches the AK47 amidst red smoke; and the
-            other of him praying in front of the hanging Persian carpets. The
-            first scene perfectly encapsulates dichotomy of God and gun, because
-            donning the pagri is an acknowledgement of the Lord’s presence, but
-            it’s the AK47 that has control of the both the video frame and our
-            protagonist Sidhu: the poster child for the brotherhood of daakus.  
-          </p>
         </div>
       </div>
     </div>
