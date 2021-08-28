@@ -49,6 +49,13 @@ module.exports = {
       title: 'Steel Banglez X Sidhu Moose Wala: \'47\' Track Review',
       chunks: ['chunk-vendors', 'chunk-common', 'singleone']
   },
+    'singletwo': {
+      entry: './src/subpages/singletwo/main.js',
+      template: 'public/index.html',
+      filename: 'singletwo.html',
+      title: "AMANTEJ HUNDAL X SIGNATURE BY SB: 'Chorus'",
+      chunks: ['chunk-vendors', 'chunk-common', 'singletwo']
+  },
   },
   lintOnSave: false,
   configureWebpack: {

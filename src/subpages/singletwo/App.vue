@@ -33,12 +33,12 @@ export default {
   data() {
     return {
       post: {
-        img: require("../../assets/img/amantejhundal.jpg"),
-        postH1: "AMANTEJ HUNDAL X SIGNATURE BY SB: 'Chorus'",
+        img: require("../../assets/img/hundalenemies.jpg"),
+        postH1: "AMANTEJ HUNDAL X SIGNATURE BY SB: 'Enemies'",
         postH2: "Chorus",
         postIntro: "",
-        lyricsOG: ["jatt ne tah zindagi che lehne aa nazaare", "testOG", "tedajfj"],
-        lyricsTrans: ["test2", "test3", "erjif"],
+        lyricsOG: ["OGlyric", "OGlyric1", "OGlyric2"],
+        lyricsTrans: ["transLyric", "transLyric1", "transLyric2"],
         lyricsSnippet: [],
         postContent: ""
       }
